@@ -1,0 +1,401 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sexta Aplicacion</title>
+
+ <!--grupo CSS-->
+ <link rel="stylesheet" href="css/tema-app6.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ <!--grupo javaScript-->
+ <script src="js/jquery-1.11.2.min.js"></script>
+ <script src="js/jquery.mobile-1.4.5.min.js"></script>
+ <script src="js/acciones.js"></script>
+ <script src="phonegap.js"></script>
+ 
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+ 
+ </style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+ 
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/2.jpg','imagenes/12.jpg','imagenes/18.jpg','imagenes/10.jpg','imagenes/20.jpg','imagenes/7.jpg','imagenes/22.jpg')" >
+    <div data-role="page" id="Principal" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> Batalla de Puebla </h1>
+</div>
+       <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/1.jpg" alt="1" title="1" id="wows1_0"/></li>
+		<li><img src="data1/images/2.jpg" alt="2" title="2" id="wows1_1"/></li>
+		<li><img src="data1/images/3.jpg" alt="3" title="3" id="wows1_2"/></li>
+		<li><img src="data1/images/4.jpg" alt="4" title="4" id="wows1_3"/></li>
+		<li><img src="data1/images/5.jpg" alt="5" title="5" id="wows1_4"/></li>
+		<li><img src="data1/images/6.jpg" alt="6" title="6" id="wows1_5"/></li>
+		<li><img src="data1/images/7.jpg" alt="7" title="7" id="wows1_6"/></li>
+		<li><img src="data1/images/8.jpg" alt="8" title="8" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/9.jpg" alt="http://wowslider.com/" title="9" id="wows1_8"/></a></li>
+		<li><img src="data1/images/10.jpg" alt="10" title="10" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1"><span><img src="data1/tooltips/1.jpg" alt="1"/>1</span></a>
+		<a href="#" title="2"><span><img src="data1/tooltips/2.jpg" alt="2"/>2</span></a>
+		<a href="#" title="3"><span><img src="data1/tooltips/3.jpg" alt="3"/>3</span></a>
+		<a href="#" title="4"><span><img src="data1/tooltips/4.jpg" alt="4"/>4</span></a>
+		<a href="#" title="5"><span><img src="data1/tooltips/5.jpg" alt="5"/>5</span></a>
+		<a href="#" title="6"><span><img src="data1/tooltips/6.jpg" alt="6"/>6</span></a>
+		<a href="#" title="7"><span><img src="data1/tooltips/7.jpg" alt="7"/>7</span></a>
+		<a href="#" title="8"><span><img src="data1/tooltips/8.jpg" alt="8"/>8</span></a>
+		<a href="#" title="9"><span><img src="data1/tooltips/9.jpg" alt="9"/>9</span></a>
+		<a href="#" title="10"><span><img src="data1/tooltips/10.jpg" alt="10"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+       <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false" align="center">
+          <h1> 4  de mayo</h1>
+           <div>
+           <h2>La noche del 4 de mayo de 1862 lucía más oscura que ninguna otra para el general Ignacio Zaragoza, quien a punto de enfrentar al ejército más poderoso del mundo se reunió con sus lugartenientes. La consigna: combatir con todas sus fuerzas para morir con dignidad, recuerda José Emilio Pacheco en su Inventario 208 (Excélsior, 27 de octubre 1980).
+
+“Hoy vais a pelear por un objeto sagrado; vais a pelear por la patria y yo me prometo que en la presente jornada conquistaréis un día de eterno renombre. Soldados: leo en vuestras frentes la victoria… fe… y… ¡Viva la independencia nacional! ¡Viva México!”, clamó Zaragoza con voz vibrante, según narra Miguel Galindo y Galindo en el tomo segundo (de tres) de La gran década nacional 1857-1867.
+
+Parecía no había esperanza para la victoria. Zaragoza iba a combatir ante más de 5 mil soldados de un ejército que llevaba medio siglo sin perder una batalla, con una legión de hombres medio mal comidos, mal adiestrados y armados apenas con los mismos fusiles viejos que –irónicamente- habían servido en la última derrota francesa, en Waterloo, y que –narra Pacheco- habían sido revendidos en calidad de chatarra por un traficante.
+
+En 1862 México era un montón de escombros; las ruinas que dejó la Guerra de Reforma (1858-61). Era fácil presa de las ambiciones de Bonaparte.
+
+El general Charles Ferdinand Latrille, jefe de las tropas imperiales, esperaba ser recibido “con una lluvia de rosas” más que de balas, y contó con el apoyo de contingentes mexicanos de convicciones conservadoras, entre ellos el hijo de Morelos, Juan Nepomuceno Almonte. Zaragoza recibió huestes de distintos puntos del país para reforzar un ejército maltrecho y parchado con elementos de leva que carecían de entrenamiento alguno.
+
+Aquella mañana, cuando los franceses atravesaron en columna el horizonte angelopolitano desde el oriente, Zaragoza defendió la ciudad con divisiones provenientes de Oaxaca, del Estado de México y San Luis Potosí, y un elemento decisivo para la victoria: los indios zacapoaxtlas y la caballería indígena oaxaqueña que fungieron como reservas. 
+
+“La fecha ha marcado un antes y un después en México por eso: porque ni la Revolución ni la Independencia reunieron las fuerzas de todos los estratos, incluso de los conservadores, contra un solo oponente”, comenta Berlioz, una de las voces que sostiene que ese día tomó forma la nación mexicana.
+</h2>
+              <br>
+          </div>
+              <div>
+                <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image55','','imagenes/22.jpg',1)"><img src="imagenes/21.jpg" width="258" height="195" id="Image55"></a></div>
+         </div>
+</div>
+                     <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false" align="center">
+          <h1> 5 de mayo</h1>
+           <div>
+           <h2>La Batalla de Puebla tuvo lugar el día 5 de mayo de 1862 en las inmediaciones de la ciudad de Puebla. Los bandos contendientes fueron los ejércitos de la República Mexicana, que estaban comandados por Ignacio Zaragoza, y el ejército del Segundo Imperio Francés, bajo las órdenes de Charles Ferdinand Latrille, conde de Lorencez. El resultado fue una victoria muy importante para el bando mexicano. Pero el éxito de esta conquista no logró su cometido final que era impedir la invasión de México por parte de tropas francesas sino que sólo retrasó el hecho.</h2>
+              <br>
+          </div>
+              <div>
+               <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','imagenes/2.jpg',1)"><img src="imagenes/1.jpg" width="259" height="194" id="Image25"></a> </div>
+               </div>
+              </div>
+              <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false" align="center">
+          <h1>Leyenda del 5 de mayo</h1>
+           <div>
+           <h2>Cuenta una vieja leyenda de Puebla que en la época de las invasiones francesas había en las Leyenda del 5 de mayocercanías de los fuertes un niño zacapoaxtla, los soldados le pidieron a aquel niño que subiera a un árbol para observar que tan lejos se encontraba el enemigo puesto que ellos no podían subir a los finos y frágiles arboles de la región. El niño aceptó ayudar gustoso, subió a un árbol y pudo ver avanzar a los franceses, entonces el pequeño contó cuantos eran, también contó que tipo de armamento traían y a qué velocidad avanzaban, los soldados agradecieron al niño y le pidieron que bajase pero el niño seguía aferrado al árbol dando aun más información, entonces comenzó la batalla y la balacera no se hizo esperar, una de las balas perdidas dio en el corazón del niño, el cual cayó y murió, los soldados ganaron la batalla ese día gracias a la información del pequeño, así que procedieron a darle cristiana sepultura y lo nombraron el héroe del día.</h2>
+              <br>
+          </div>
+              <div>
+                <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','imagenes/12.jpg',1)"><img src="imagenes/11.jpg" width="300" height="168" id="Image2"></a></div>
+               </div>
+              </div>
+             <div>
+             <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+             <li class="ui-first-child ui-last-child">
+               <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                  <h2> Motivos de la batalla del 5 de mayo</h2>
+                  <p> ¿por que se dio esta batalla?</p>
+               </a>
+             </li>
+             <li class="ui-first-child ui-last-child">
+               <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                  <h2>Invacion</h2>
+                  <p>¿Por qué fue la invasión?</p>
+               </a>
+            </li>
+            <li class="ui-first-child ui-last-child">
+               <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                  <h2>Batalla </h2>
+                  <p>¿cuales fueron las consecuencias de la batalla?</p>
+               </a>
+            </li>
+            <li class="ui-first-child ui-last-child">
+               <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                  <h2>Significado</h2>
+                  <p>¿Su significado para el  pueblo mexicano?</p>
+               </a>
+            </li>
+            <li class="ui-first-child ui-last-child">
+               <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                  <h2>Personajes</h2>
+                  <p>¿que personajes partisiparon?</p>
+               </a>
+            </li>
+              </ul>
+            </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+              <div>
+                <img src="res/android/mdpi.png" width="46" height="46">
+              </div>
+              <div>
+                <h4>Aplicacion seis </h4>
+                <h4> Saul Pascual Sacramento Martinez</h4>  
+              </div> 
+            </div>
+            </div> 
+            <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a"> 
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+               <h1>Motivos de la batalla del 5 de mayo</h1>
+            </div>
+            <div data-role="content" align="center">
+              <div>  
+                <h2>Motivos de la batalla del 5 de mayo</h2>
+<h3>
+En mayo de 1861, el presidente Benito Juárez anunció la suspensión de los pagos de deuda la mexicana. Como consecuencia, los acreedores que eran Francia, Inglaterra y España firmaron la conocida Convención de Londres por la cual se comprometían enviar contingentes militares hacia el territorio mexicano con el fin hacer valer los derechos como acreedores.
+En diciembre del mismo año, llegaron al puerto de Veracruz los primeros militares mientras que en enero de 1862 arribaron las tropas inglesas y francesas. Una vez en el país, los representantes de los tres países acreedores enviaron un ultimátum al gobierno de México exigiéndole el pago de las deudas ya que de lo contrario invadirían el país. Juárez, al ver que la invasión era un riesgo evidente, solicitó negociar para llegar a un acuerdo amistoso al tiempo que derogó el decreto que llevó a los países acreedores a iniciar acciones militares.
+El presidente Juárez viendo la posibilidad de una invasión militar a la Ciudad de México ordenó la fortificación de Puebla al mismo tiempo que creó una nueva unidad militar conocida como Ejército de Oriente. Esta en un principio estuvo bajo las órdenes de José López Uraga pero debido a su mal desempeño el mando recayó en las manos del hasta entonces Ministro de Guerra, Zaragoza. Él tuvo la tarea de organizar las fuerzas, que sumaban unos 10.000 hombres, para repeler el ataque del ejército francés.
+
+Los representantes de los países acreedores aceptaron la propuesta de negociación y en febrero de 1862 se reunieron con los ministros Manuel Doblado (Mtro. De Exterior) e Ignacio Zaragoza (Mtro. de Guerra). La reunión se llevó a cabo en la hacienda La Soledad muy próxima a Veracruz. Esta negociación derivó en la firma de los Tratados preliminares de La Soledad mediante los cuales España, Francia e Inglaterra se comprometían a reconocer la independencia del país. En cuanto a la deuda, se aceptó que las negociaciones se realizasen en Orizaba, Córdoba y Tehuacán. En caso de no llegar a un acuerdo, se comenzarían las campañas militares desde las costas.</h3>
+              </div>
+            </div>
+            
+            <div align="center">
+                <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image36','','imagenes/7.jpg',1)"><img src="imagenes/6.jpg" width="270" height="186" id="Image36"></a></div>
+                
+  <div data-role="main" class="ui-content" align="center">
+ <div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="http://www.historia-mexico.info/2012/08/batalla-de-puebla-la-batalla-del-5-de.html"  data-role="button" id="vibrar">
+       <h2>Para mas informacion</h2>
+       </a>
+    </li>
+   </ul>
+  </div>
+  </div>
+             
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            <div>
+                <img src="res/android/mdpi.png" width="46" height="46">
+              </div>
+               <h4> App6-SPSM</h4>
+            </div>
+          </div>
+            </div>
+            </div>
+            
+            <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a"> 
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+               <h1>¿Por qué fue la invasión?</h1>
+            </div>
+            <div data-role="content" align="center">
+              <div>  
+                <h2>¿Por qué fue la invasión?</h2>
+<h3>
+
+Benito Juárez, el entonces presidente de nuestro país, suspendió los pagos de una deuda de 80 millones de pesos que teníamos con algunos países del continente europeo.
+
+A finales de 1861, Francia, Espala e Inglaterra se comprometieron a enviar contingentes militares a México para exigirnos el pago de la deuda. En diciembre llegaron los primeros ejércitos; Juárez intentó llegar a un acuerdo de manera amistosa, pero bajo la amenaza inminente ordenó la movilización de nuestros militares a Puebla para repeler un posible ataque.
+
+Las negociaciones se empezaron en Orizaba, pero Francia tenía otros planes en mente. Cuando España e Inglaterra se dieron cuenta de que pretendía invadir el país para hacerlo colonia francesa, se retiraron de nuestro territorio.
+</h3>
+              </div>
+            </div>  
+            <div align="center">
+                <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image52','','imagenes/20.jpg',1)"><img src="imagenes/19.jpg" width="258" height="195" id="Image52"></a></div>     
+ <div data-role="main" class="ui-content" align="center">
+ <div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="http://www.actitudfem.com/entorno/trabajo/que-se-celebra-el-5-de-mayo"  data-role="button" id="vibrar">
+       <h2>Para mas informacion</h2>
+       </a>
+    </li>
+   </ul>
+  </div>
+  </div>
+            
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            <div>
+                <img src="res/android/mdpi.png" width="46" height="46">
+              </div>
+               <h4> App6-SPSM</h4>
+            </div>
+          </div>
+             </div>
+            </div>
+            
+            <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a"> 
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+               <h1>Consecuencias de la Batalla</h1>
+            </div>
+            <div data-role="content" align="center">
+              <div>  
+                <h2>Consecuencias de la Batalla</h2>
+<h3>
+Mientras se libraba la batalla, en el Palacio Nacional y en la Ciudad de México en general se vivía un ambiente de tensa espera. Lo último que se sabía de Puebla era el telegrama enviado por Zaragoza hacia las 12:30 del día, en el que avisaba que el fuego de artillería de ambos lados había iniciado. Luego, silencio. Ante la incertidumbre, el gobierno había hecho salir precipitadamente al general Florencio Antillón al mando de los Batallones de Guanajuato, quedando como guardianes de la capital sólo 2,000 hombres del Regimiento de Coraceros Capitalinos y algunos centenares de milicianos pobremente armados. Si las tropas guanajuatenses se perdían, la capital quedaría desprotegida.
+
+A las 4:15 de la tarde finalmente se recibieron noticias:
+
+... Sobre el campo a las dos y media.— Dos horas y media nos hemos batido. El enemigo ha arrojado multitud de granadas.— Sus columnas sobre el cerro de Loreto y Guadalupe han sido rechazadas y seguramente atacó con cuatro mil hombres. Todo su impulso fue sobre el cerro.— En este momento se retiran las columnas y nuestras fuerzas avanzan sobre ellas. Comienza un fuerte aguacero.— I. Zaragoza8
+Zaragoza envió más tarde otro telegrama en el que dijo que los franceses habían iniciado la retirada hacia Amozoc, pero sin mencionar el resultado final de la batalla. Finalmente, a las 5:49 de la tarde se recibió otro parte, dirigido al ministro de Guerra, que causó júbilo (y un gran alivio) en Palacio Nacional:
+
+... Las armas del Supremo Gobierno se han cubierto de gloria: el enemigo ha hecho esfuerzos supremos por apoderarse del Cerro de Guadalupe, que atacó por el oriente de izquierda y derecha durante tres horas: fue rechazado tres veces en completa dispersión y en estos momentos está formado en batalla, fuerte de más de 4,000 hombres, frente al cerro de Guadalupe, fuera de tiro. No lo bato, como desearía, porque el Gobierno sabe (que) no tengo para ello fuerza bastante. Calculo la pérdida del enemigo, que llegó hasta los fosos de Guadalupe en su ataque, en 600 o 700 entre muertos y heridos; 400 habremos tenido nosotros. Sírvase vd. dar cuenta de este parte al C. Presidente.— I. Zaragoza9
+Dos horas después de haber sido remitido el parte anterior a la Secretaría de Guerra, el presidente de la República recibia el siguiente:
+
+... Señor Presidente.-Estoy muy contento con el comportamiento de mis generales y soldados. Todos se han portado bien.—Los franceses han llevado una lección muy severa; pero en obsequio de la verdad diré: que se han batido como bravos, muriendo una gran parte de ellos en los fosos de las trincheras de Guadalupe. Sea para bien, Sr. Presidente. Deseo que nuestra querida Patria, hoy tan desgraciada, sea feliz y respetada de todas las Naciones..— I. Zaragoza10
+
+El saldo final de la batalla fue de 476 muertos y 345 heridos del lado francés, así como 83 muertos, cerca de 131 heridos y 12 desaparecidos para el Ejército de Oriente. A las 7 de la noche del día 6 de mayo arribaron a Puebla el general Antillón y sus tropas; Zaragoza esperaba un nuevo ataque de Lorencez, pero éste, el día 8 de mayo, dispuso la retirada hasta San Agustín del Palmar, siendo "saludado" por la artillería republicana y la Banda de Guerra de los Carabineros, quienes tocaron "Escape".
+
+El 5 de septiembre de 1862, todavía acuartelado en Puebla, el general Zaragoza contrajo tifo y falleció tres días después.11 Lo sustituyó en el mando del Ejército de Oriente el general Jesús González Ortega, quien se encargaría de la defensa de la ciudad ya que se esperaba el regreso de los franceses, reagrupados y con refuerzos, lo cual sucedió en marzo del siguiente año. Los historiadores concuerdan en señalar el talento de Zaragoza como organizador y motivador de sus tropas. Antes de la batalla, las arengó diciéndoles que si bien los franceses eran considerados "los primeros soldados del mundo", ellos eran "los primeros hijos de México", lo cual tuvo tal efecto en la moral de sus soldados que su determinación por defender la plaza ante los invasores compensó sus carencias materiales y de disciplina. Además, no temió tomar decisiones arriesgadas, como prescindir de los 2000 efectivos que O'Horan se llevó para batir a Leonardo Márquez, y en el curso de la batalla actuó con serenidad y efectividad. Se le considera héroe nacional y en su honor, tiempo después, Juárez renombró a la ciudad como Heroica Puebla de Zaragoza.
+
+Cabe atribuir parte de la responsabilidad en el resultado de la batalla a Lorencez, por decidir lanzarse en primer lugar contra Loreto y Guadalupe en lugar de ir sobre la ciudad. Esta acción no carece de sentido si se toma en cuenta que el general francés se encontraba confiado en la victoria por lo que había sucedido en las Cumbres, además de que bajo la lógica militar de su tiempo, primero había que atacar al enemigo en sus posiciones más fuertes. En todo caso, ensoberbecido por la superioridad per se de los franceses, no contó con la férrea resistencia mexicana y cometió yerros garrafales: así, por ejemplo, fue famosa su orden de colocar sus cañones en batería a dos kilómetros y medio de las fortificaciones poblanas, lo cual fue calificado por el propio Napoleón III como un disparate12 ya que las balas llegaban a sus blancos, pero sin fuerza. El conde fue repatriado y lo sustituyó Frédéric Forey en el mando de las tropas expedicionarias. Cuando en Francia se supo la derrota del ejército francés, originó dolor, histeria y llanto, más aún cuando llegaron las historias de que los indígenas zacapoaxtlas (que en realidad se trataba del sexto Batallón de Guardia Nacional del Estado de Puebla13 ) habían atacado con machetes, arma desconocida en Europa, se comían los cadáveres. El resto de Europa, con incredulidad y asombro, comentaban como el ejército francés, invicto desde la Batalla de Waterloo en 1815, había sido derrotado en México, un ejército considerado el mejor del mundo, el vencedor en la conquista de Argelia y de la Indochina francesa (hoy Vietnam), había sido derrotado por un país tropical, utilizando tácticas de guerra desconocidas en Europa, como era la Guerra de Guerrillas.
+
+La guerra de guerrillas efectivamente fue utilizada en México, pero ya antes se conocía tal táctica en Europa, y más en concreto en España, lugar donde se dio por vez primera este tipo de guerra 400 años antes de Cristo, e incluso contra la invasión de las tropas de Napoleón en el siglo XIX, y que por tal motivo en este país se le dio tal nombre, guerra de guerrillas.</h3>
+              </div>
+            </div>
+            <div align="center">
+                <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image50','','imagenes/18.jpg',1)"><img src="imagenes/17.jpg" width="281" height="180" id="Image50"></a></div>
+ 
+ <div data-role="main" class="ui-content" align="center">
+ <div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="https://es.wikipedia.org/wiki/Batalla_de_Puebla"   data-role="button" id="vibrar">
+       <h2>Para mas informacion</h2>
+       </a>
+    </li>
+   </ul>
+  </div>
+  </div>
+
+            
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            <div>
+                <img src="res/android/mdpi.png" width="46" height="46">
+              </div>
+               <h4> App6-SPSM</h4>
+            </div>
+          </div>
+             </div>
+            </div>
+  
+               
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a"> 
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+             <h1>Su significado para el  pueblo mexicano</h1>
+            </div>
+            <div data-role="content" align="center">
+              <div>  
+                <h2>Su significado para el  pueblo mexicano</h2>
+<h3>
+Aunque el triunfo de la Batalla del 5 de Mayo de 1862 no fue definitivo, la resonancia de esta victoria hizo estremecerse a la patria y quedó como un símbolo del valor de defender la nación ante un enemigo temible. México se alzó en medio de las naciones y el pueblo recobró la fe y el patriotismo, halagando el honor nacional. Zaragoza obligó a los franceses a huir, frenando con ello su soberbia y sus proyectos de expansión; animó el nacionalismo y destruyó la preponderancia de Europa en nuestro país. Es considerado un triunfo de los principios democráticos republicanos frente a la ambición imperialista, acentuó la opinión mexicana de libertad y soberanía, sobre la base del respeto mutuo, fundamentado en la paz, donde el elemento humano fue determinante. Se gestaron los principios propugnados por México de la no intervención y la autodeterminación de los pueblos.
+
+3-	Insignia de uno de los batallones que pelearon en la Batalla del 05 de Mayo
+
+Este hecho se sigue recordando de dos maneras: la oficial, que inició desde el primer aniversario, poco antes de que cayera el sitio de Puebla, con un discurso conmemorativo pronunciado en la alameda Central de la Ciudad de México en el año de 1863, que alentaba al pueblo a resistir y mantener la moral ante la incertidumbre, así como recordarles que era posible derrotar a un enemigo por poderoso que parezca. Celebración que continuó después de la expulsión de los franceses, hasta la actualidad.
+
+La popular se pudo dar derivada de la celebración oficial; pero otra posibilidad es que los hombres que regresaron a sus comunidades, después de pelear contra los “franchutes” o “gabachos” (algunos producto de la leva), llevaron consigo recordatorios de la batalla, físicos y mentales, lo que pudo ser transmitido de padres a hijos por tradición oral hasta nuestros días. En algún momento comenzaron a representar la batalla en sus comunidades, como una forma de no olvidar esa historia que se volvió memoria colectiva pero con la diferencia de que no hay muerte, sino júbilo y donde todos comparten baile, canto y comida. El tiempo convirtió este encuentro bélico en relato, mito y fiesta; mismo que traspasó las fronteras y comenzó a celebrarse por las familias de origen mexicano que emigraron hacia los Estados Unidos.
+
+ A fin de cuentas la diferencia del resultado estuvo en que a ellos los impulsaba la ambición, pero a los mexicanos la razón y el corazón. </h3>
+            </div>
+            </div>
+            <div align="center">
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image51','','imagenes/10.jpg',1)"><img src="imagenes/7.jpg" width="297" height="170" id="Image51"></a></div>
+            
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            <div>
+                <img src="res/android/mdpi.png" width="46" height="46">
+              </div>
+               <h4> App6-SPSM</h4>
+            </div>
+          </div>
+            </div>
+            </div> 
+                        
+               <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a"> 
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+               <h1>Personajes</h1>
+            </div>
+            <div data-role="content" align="center">
+              <div>  
+                <h2>Personajes</h2>
+<h3>
+<h2><strong>General Ignacio Zaragoza</strong></h2>
+<img src="imagenes/13.jpg" width="300" height="168" >
+<br>
+ 
+Famoso militar mexicano quen cuando las fuerzas francesas de Napoleón III invadieron México para imponer como emperador a Maximiliano de Habsburgo, con el rango de general y al mando del Ejército de Oriente, las enfrentó en Acultzingo en la llamada Batalla de Las Cumbres de Acultzingo, el 28 de abril de 1862, siendo obligado a retroceder. Zaragoza comprendió la posición defensiva y favorable que tenía la ciudad de Puebla, paso obligado para ir a la Ciudad de México, y con un ejército más pequeño y menos equipado que los franceses, logró dar una batalla excepcional desde los cerros de Loreto y Guadalupe el 5 de mayo de 1862, en la que el ejército francés fue completamente derrotado, viéndose obligado a retirarse hasta la ciudad de Orizaba, en el estado de Veracruz. El informe que el general Zaragoza rindió sobre la Batalla de Puebla al Secretario de Guerra Miguel Blanco Múzquiz fue breve y significativo: "Las armas nacionales se han cubierto de gloria. Las tropas francesas se portaron con valor en el combate y su jefe con torpeza".
+
+<h2><strong>General Porfirio Díaz</strong></h2>
+<img src="imagenes/14.jpg" width="300" height="168">
+<br>
+ 
+Al producirse la Intervención Norteamericana en México, en el seminario de Oaxaca surgió la inquietud de luchar contra los invasores, idea que fue respaldada y alentada por los sacerdotes y maestros. En octubre de ese año, varios alumnos se dirigieron a ver al gobernador del Estado y solicitarle su ingreso al ejército nacional. Porfirio Díaz estaba en ese grupo, y los cadetes fueron asignados al Batallón de San Clemente. Sin embargo, poco después, la guerra terminó y los estudiantes no pudieron ir a pelear.En apoyo del Guerrero, que se dejó ir demasiado lejos en persecución, Díaz envió a las tropas de Oaxaca, con los Coroneles Espinoza y Loaeza a la cabeza, dando un impulso formidable a los mexicanos, que expulsaron al enemigo de las cercanías. El éxito alentó a Porfirio, destacó al Morelos con dos piezas de artillería a la izquierda, mientras por la derecha los Rifleros de San Luis se reponían de la escaramuza, antecedidos por una formidable Carga de Lanceros, dirigida por el mismísimo Díaz, que desbarata las filas del enemigo; Díaz quedó dueño del campo y necesitó repetidas órdenes de Zaragoza para regresar a sus posiciones.
+
+<h2><strong>Felipe Berriazábal</strong></h2>
+<img src="imagenes/15.jpg" width="300" height="168">
+<br>
+ 
+Felipe Berriozábal Militar e ingeniero, nació en Zacatecas. Fue gobernador de los estados de México, Michoacán y San Luis Potosí y realizó importantes proyectos de ingeniería. Como militar llegó a General y fue ministro de Guerra y Marina. Participó en la Guerra de Reforma y contra la Intervención Francesa. En la batalla del 5 de mayo en Puebla, aseguró el triunfo de los mexicanos al dar alcance con la caballería, junto con el Gral. Porfirio Díaz, a las tropas francesas en retiradas.Actuó bajo las órdenes del general Ignacio Zaragoza al confrontar y derrotar a Leonardo Márquez en las Lomas de Calderón, pero fue hecho prisionero por Miguel Miramón en diciembre de 1860. En 1862, participó en la defensa del Convento San Agustín, en la Batalla de Las Cumbres, y en la Batalla de Puebla. En 1863, fue hecho prisionero por los franceses, logró fugarse uniéndose al presidente Benito Juárez, quien lo designó en 1865 como Ministro de la Guerra. 
+
+<h2><strong>Miguel Negrete</strong></h2>
+<img src="imagenes/16.jpg"  width="300" height="168">
+<br>
+ 
+Durante la Segunda Intervención Francesa en México, Negrete hizo a un lado su ideología conservadora y participó en la defensa del territorio mexicano, ante el avance de las tropas francesas hacia el centro de México, Negrete reacciona y se pone de parte del bando liberal con su célebre frase "Yo tengo Patria antes que Partido".Unido al ejército republicano y a las órdenes del general Ignacio Zaragoza, ambos se cubren de gloria en la Batalla de Las Cumbres y en la Batalla de Puebla el 5 de mayo de 1862, llegando a ser considerado como el segundo héroe de dicha batalla al defender el Fuerte de Loreto.</h3>
+              </div>
+            </div>
+       
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+              <div>
+                <img src="res/android/mdpi.png" width="46" height="46">
+              </div>
+              <div>
+                <h4>App6-SPSM </h4>  
+              </div> 
+            </div>
+            </div> 
+                     
+                     
+          
+          
+         
+                  
+          
+</body>
+</html>
